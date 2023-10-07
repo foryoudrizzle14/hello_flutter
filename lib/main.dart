@@ -11,8 +11,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, // remove debug banner
       home: Scaffold(
         appBar: AppBar(),
-        body: Text('My First App'),
+        body: Text(
+          'My First App',
+          style: TextStyle(
+              fontSize: 28, color: Colors.blue, fontWeight: FontWeight.bold),
+        ),
       ), //Scaffold
-    ); //MaterialApp
+    ); //MaterialApp,
   }
 }
